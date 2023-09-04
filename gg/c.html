@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+        }
+        .img2 {
+            width: 100%;
+        }
+    
+        .box {
+            position: relative;
+        }
+
+
+       .box1 {
+            height: auto;
+             background-color: aliceblue;
+             width: 350px!important;
+             border-radius: 10px!important;
+             transform: skewY(8deg) scale(1.3);
+             position: absolute;
+             right: 12%;
+             top: 18%;
+             transition: all 0.7s ease;
+            }
+  .box1 img{
+    border-radius:10px 10px 0px 0px!important ;
+ }
+        
+    .box1:hover{
+            transform: skewY(8deg) scale(1.3) translateY(-20px);
+        }
+.box2{
+    background-color: aliceblue;
+    width: 250px!important;
+    border-radius: 10px!important;
+    height: auto;
+    transform: skewY(8deg) scale(1.3);
+    position: absolute;
+    right: 55%;
+    top: 22%;
+     transition: all 0.7s ease;
+}
+     .box2 img{
+        border-radius:10px 10px 0px 0px!important ; 
+     }
+      .box2:hover{
+            transform: skewY(8deg) scale(1.3) translateY(-20px);
+        }
+        .box3{
+            background-color: aliceblue;
+            width: 250px!important;
+            border-radius: 10px!important;
+            height: auto;
+            transform: skewY(8deg) scale(1.3);
+            position: absolute;
+            right: 25%;
+             top: 58%;
+             transition: all 0.7s ease;
+        }
+        .box3 img{
+          border-radius:10px 10px 0px 0px!important ; 
+      }
+     .box3:hover{
+            transform: skewY(8deg) scale(1.3) translateY(-20px);}
+
+            .ss1{
+                color:  #171718;
+                font-size: 18px;
+                margin-left:5px ;
+                transition: all 0.7s ease;
+            }
+            .ss2{
+                letter-spacing: .025em;
+                margin-left:5px ;
+                transition: all 0.7s ease;
+                font-size: 18px;
+                font-weight: 500;
+                color: #9e9e9e;
+            }
+    </style>
+</head>
+<body>
+
+   <div class="box">
+    <img src="jk.jpg" alt="" class="img2">
+    <div class="box1">
+        <img src="k.webp" alt="" width="100%">
+        <span class="ss1">Jessics</span><br>
+        <span class="ss2">Branding</span>
+    </div>
+    <div class="box2">
+        <img src="jn.webp" alt="" width="100%">
+        <span class="ss1">Ben Fryc</span><br>
+        <span class="ss2">3D</span>
+    </div>
+    <div class="box3">
+        <img src="jm.webp" alt="" width="100%">
+        <span class="ss1">Diane</span><br>
+        <span class="ss2">Photography</span>
+    </div>
+   </div>
+
+</body>
+</html>
